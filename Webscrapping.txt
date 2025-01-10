@@ -1,0 +1,54 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import csv
+
+# Path to the ChromeDriver executable
+CHROMEDRIVER_PATH = r"C:\Users\cex\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+
+# Set up Selenium WebDriver
+service = Service(CHROMEDRIVER_PATH)
+driver = webdriver.Chrome(service=service)
+
+try:
+    # Open the website
+    url = 'https://www.jumia.com.ng/phones-tablets/'
+    driver.get(url)
+
+    # Wait for the product grid to load
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, 'itm'))
+    )
+
+    # Parse the page source with BeautifulSoup
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+    # Extract product details
+    products = soup.find_all('div', class_='itm col')  # Update this class if needed
+    product_data = []
+
+    for product in products:
+        # Extract product name and price
+        name_element = product.find('div', class_='name')  # Update this class if needed
+        price_element = product.find('div', class_='prc')  # Update this class if needed
+        name = name_element.get_text(strip=True) if name_element else 'N/A'
+        price = price_element.get_text(strip=True) if price_element else 'N/A'
+        product_data.append([name, price])
+
+    # Save product data to a CSV file
+    with open(r'C:\Users\cex\Downloads\products.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Name', 'Price'])
+        writer.writerows(product_data)
+
+    print("Data has been successfully saved to 'products.csv'!")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+finally:
+    # Close the browser
+    driver.quit()
