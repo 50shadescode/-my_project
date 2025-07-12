@@ -1,0 +1,81 @@
+Assignment: “AI in the Real World — Judge the Bot"
+Assignment Brief (student-facing)
+
+You’re now a Responsible AI Inspector 🕵️‍♂️. Your job is to investigate how AI is used in a scenario, spot anything suspicious (bias? lack of transparency?), and help fix it. You'll be given 2 short cases.
+
+Your mission:
+
+Describe what the AI is doing.
+
+Spot what could go wrong (hint: check fairness, privacy, accountability...)
+
+Suggest 1 way to improve it responsibly.
+
+🎨 Bonus points if you write your answer like a short blog post explaining the issue in a fun and clear way.
+
+Think of it as being a detective — but make it vibe. 
+
+ Example Scenario Prompts
+
+Hiring Bot: A company uses an AI to screen job applicants. It tends to reject more female applicants with career gaps.
+
+School Proctoring AI: A system flags students as "cheating" based on eye movement — but it often flags neurodivergent students. 
+Deliverables
+
+Short write-up for 2 cases:
+
+What’s happening
+
+What’s problematic
+
+One improvement idea
+
+Bonus format: blog
+
+
+AI in the Real World — Judge the Bot!
+
+By Martin Odhiambo, Responsible AI Inspector
+
+AI is everywhere nowadays, helping companies and schools make faster decisions. But what if the AI isn’t fair or transparent? What if it makes mistakes that hurt people? As a Responsible AI Inspector, I dove into two real-world cases where AI is in charge — and uncovered some hidden problems. Let’s judge the bot, responsibly.
+Case 1: The Hiring Bot’s Unfair Bias
+What’s Happening?
+
+A company uses an AI system to screen job applicants automatically. The AI looks for patterns in resumes and tends to reject candidates with gaps in their career history. Unfortunately, this means more female applicants who took maternity leave or career breaks get rejected.
+What Could Go Wrong?
+
+    Bias in decision-making: The AI learned from past hiring data that undervalued candidates with career gaps. Since many women take breaks for family reasons, this creates gender bias.
+
+    Lack of context: The AI treats all gaps as negative without understanding valid reasons behind them.
+
+    No transparency or feedback: Applicants don’t get explanations or a chance to explain their situation.
+
+One Improvement Idea
+
+Retrain the AI model on more inclusive, context-aware data that considers the reasons behind career gaps. Add a human review step for borderline cases so applicants with legitimate reasons aren’t unfairly rejected.
+
+    “Automating bias is just making prejudice faster — AI needs a human conscience to keep it fair.”
+
+Case 2: The Overzealous School Proctor AI
+What’s Happening?
+
+A school uses an AI system to monitor students during online exams. The AI watches eye movement and behavior to detect cheating. But it often flags neurodivergent students (like those with ADHD or autism) who have natural behaviors such as fidgeting or avoiding eye contact.
+What Could Go Wrong?
+
+    Discrimination: The AI doesn’t understand diverse behaviors and unfairly penalizes neurodivergent students.
+
+    Privacy concerns: Continuous monitoring can feel invasive, especially if students don’t fully understand how their data is used.
+
+    No appeal or transparency: Students aren’t informed how decisions are made or given a chance to contest flags.
+
+One Improvement Idea
+
+Build the AI system with accessibility and neurodiversity in mind by involving affected groups in design and testing. Allow students to opt for alternative monitoring methods or exemptions. Introduce a human-in-the-loop process before any action is taken based on AI flags.
+
+    “Fairness in AI means knowing when human complexity is greater than an algorithm’s rulebook.”
+
+Final Thoughts
+
+AI can supercharge decision-making — but without care, it can also reinforce unfairness and hurt the people it’s meant to serve. We need to build AI systems that are fair, transparent, accountable, and inclusive. That means diverse data, human oversight, and respect for privacy.
+
+As AI inspectors, our job is to catch these blind spots and demand better design. After all, a bot might be smart, but only humans can make AI just.
