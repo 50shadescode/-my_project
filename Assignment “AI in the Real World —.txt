@@ -1,0 +1,62 @@
+Assignment: “AI in the Real World — Judge the Bot"
+Description
+You’re now a Responsible AI Inspector 🕵️‍♂️. Your job is to investigate how AI is used in a scenario, spot anything suspicious (bias? lack of transparency?), and help fix it. You'll be given 2 short cases.
+Your mission:
+1.	Describe what the AI is doing.
+2.	Spot what could go wrong (hint: check fairness, privacy, accountability...)
+3.	Suggest 1 way to improve it responsibly.
+🎨 Bonus points if you write your answer like a short blog post explaining the issue in a fun and clear way.
+Think of it as being a detective — but make it vibe. 
+Example Scenario Prompts
+1.	Hiring Bot: A company uses an AI to screen job applicants. It tends to reject more female applicants with career gaps.
+2.	School Proctoring AI: A system flags students as "cheating" based on eye movement — but it often flags neurodivergent students.
+Deliverables
+•	Short write-up for 2 cases:
+o	What’s happening
+o	What’s problematic
+o	One improvement idea
+•	Bonus format: blog
+
+ 
+AI in the Real World — Judge the Bot!
+By Martin Odhiambo, Responsible AI Inspector
+In today’s world, AI systems are everywhere — from choosing what you watch next on Netflix to deciding if you’re a good fit for a job. But what happens when the bot gets it wrong? What happens when these seemingly "smart" systems reinforce bias, miss context, or ignore those who don't fit a neat pattern?
+In this blog, I play the role of a Responsible AI Inspector. My job? Investigate how AI is used in two real-world cases, spot what could go wrong, and recommend how to fix it — responsibly. Think of it like CSI: Algorithm Edition.
+Let’s judge the bot.
+Case 1: The Biased Hiring Bot
+
+What’s Happening:
+A growing tech company automates its hiring process using an AI-powered screening system. The goal? Save time by shortlisting "top candidates" from thousands of resumes. The AI is trained on past hiring data and uses patterns in resumes to score and rank applicants.
+But there's a catch: candidates with career gaps are consistently being filtered out — especially women who've taken time off for caregiving or maternity leave.
+
+What’s Going Wrong:
+
+Unfair Scoring: The AI has learned from biased historical data. If past hiring managers preferred continuous work experience (often unconsciously penalizing women or caregivers), the AI now mirrors and amplifies that bias.
+Lack of Context: The system treats any career gap as a red flag — ignoring valid reasons like illness, family responsibilities, or education.
+Opaque Decisions: Applicants never learn why they were rejected. There’s no feedback loop, no human review — just silence from the system.
+
+One Responsible Fix:
+
+Re-train the AI using inclusive, diverse datasets that account for different life paths. Instead of punishing gaps, the AI should look at what the candidate accomplished before or after. Even better, the system should allow candidates to explain career breaks contextually and flag those for human review — especially if the candidate qualifies in other ways.
+“If we feed our AI a biased past, we’re locking in injustice for the future.”
+Case 2: The Overzealous School Proctor Bot
+
+What’s Happening
+An online university deploys an AI proctoring tool during remote exams. The system uses webcam footage, microphone input, and facial tracking to detect "cheating behavior" — including looking away from the screen, fidgeting, or background noise.
+Soon, students start getting flagged — some even failing exams — for simply being neurodivergent. Students with ADHD or autism report being penalized unfairly because their natural behaviors (like eye movement, stimming, or discomfort with camera eye contact) don’t match the AI’s "normal" behavior patterns.
+
+What’s Going Wrong
+
+Discrimination Against Neurodivergence: The system was likely trained on neurotypical behavior and lacks understanding of the full spectrum of human interaction.
+Privacy Red Flags: Students are being monitored constantly, often without fully informed consent or clarity about how their data is used.
+No Appeals Process: Once flagged, there’s little students can do. The AI’s decision is treated as final — a troubling lack of accountability and transparency.
+
+One Responsible Fix
+
+Design for inclusion from the start. Developers should involve diverse groups — especially neurodivergent individuals — in the design, testing, and feedback phases. The system should offer accessibility modes, allow students to opt into alternate monitoring methods, and include a human review panel before any penalty is enforced.
+“Fair AI doesn’t just work for the majority — it works for everyone, especially the misunderstood.”
+Final Thoughts: AI Needs a Moral Compass
+The promise of AI is huge: faster decisions, smarter systems, improved efficiency. But when left unchecked, AI can silently bake in systemic inequalities — and do so at scale.
+As a Responsible AI Inspector, I’ve learned that fairness, accountability, and transparency aren’t just technical issues — they’re human rights issues. It’s not enough to build smart systems; we must also build just ones.
+So the next time someone says, “Let the AI decide,” pause and ask: Who taught the AI? Who’s watching the bot? And who’s making sure it’s not just smart — but also fair?
+
